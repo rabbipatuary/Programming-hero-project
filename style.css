@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    width: 100%;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+/* Navigation start */
+
+
+.nav-parent{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 340px;
+    position: fixed;
+    background-color: white;
+   /* padding: 30px 0; */
+   width: 100%;
+   height: 100px;
+}
+.nav-parent img{
+    width: 160px !important;
+    
+}
+.nav-child2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+
+}
+.nav-child2 ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.nav-child2 ul li {
+    list-style: none;
+   
+}
+.nav-child2 ul li a {
+    text-decoration: none;
+     color: black;
+    font-size: 14px;
+}
+.nav-child2 span{
+    text-decoration: none;
+}
+.nav-child2 span p{
+    text-decoration: none;
+}
+/* background-image: linear-gradient(direction, color-stop1, color-stop2, ...); */
+.btn{
+    color: white;
+   background-image:linear-gradient(to left , #cc5ce6 , #8b38ef) ;
+    padding:10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.outline-btn{
+     color: white;
+   background-image:linear-gradient(to left , #b6348b , #eb4d3d) ;
+    padding:10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.icon{
+    font-size: 25px;
+ color: #444242;
+}
+/* Navigation end */
+.hero-banner{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding : 170px;
+    background-color: #faf6f9;
+    /* margin-top: 60px !; */
+    
+}
+.hero-banner  p{
+    text-align: center;
+    padding:20px 160px;
+}
+.banner-span{
+    color: #9927e7;
+}
+
+.timer-parent{
+    text-align: center;
+    margin-top : 130px;    
+    margin-bottom: 100px;   
+    max-width: 1000px;
+    margin: auto ;
+   
+    
+   
+    ;
+
+}
+.timer-card-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 30px !important;
+
+}
+.card{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding:30px 50px 30px 20px;
+    text-align: left;
+    background-color: #fff0ff;
+    width: 1300px;
+    height: 100px;
+    
+}
+.card p{
+    border: 1px solid white;
+    background-color: #f5d5fb;
+    color: #7b17ea;
+    margin-bottom: 15px;
+ text-align: center;
+    border-radius: 60px;
+    padding: 5px;
+    font-size: 14px;
+}
+.card h5{
+    color:#4b5563;
+}
+.bootcamp{
+    text-align: center;
+    border: 1px dotted #6b6d6c;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #ecf5ef;
+    margin-top: 100px;
+}
+.bootcamp img{
+    width: 400px;
+
+}
